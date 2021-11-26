@@ -1,0 +1,253 @@
+#page-home {
+    display: flex;
+    background-image: linear-gradient(to top, #e58c8a, MediumOrchid);
+
+    main {
+
+        .statistic-content {
+            display: flex;
+            justify-content: center;
+            padding: 0 400px;
+            flex-direction: column;
+            align-items: center;   
+            height: 100vh;
+
+            h1 {
+                font: 700 36px 'Roboto', sans-serif;
+                padding: 32px;
+                text-decoration: underline;
+            }
+
+            .informations-content {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                border: solid 3px Silver;
+                background: gainsboro;
+                
+                .total-cases {
+                    display: flex;
+                    width: 350px;
+                    height: 175px;
+                    padding: 70px;
+                    align-items: center;
+                    flex-direction: column;
+                    border-right: solid 3px Silver;
+                    
+                    strong {
+                        font: 700 24px 'Roboto', sans-serif;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        font: 400 18px 'Roboto', sans-serif;
+                    }
+                }
+
+                .risk-occurrence {
+                    display: flex;
+                    width: 350px;
+                    height: 175px;
+                    padding: 70px;
+                    align-items: center;
+                    flex-direction: column;
+                    border-right: solid 3px Silver;
+                    
+                    strong {
+                        font: 700 24px 'Roboto', sans-serif;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        font: 400 18px 'Roboto', sans-serif;
+                    }
+                }
+
+                .cure-chance {
+                    display: flex;
+                    width: 350px;
+                    height: 175px;
+                    padding: 70px;
+                    align-items: center;
+                    flex-direction: column;
+
+                    strong {
+                        font: 700 24px 'Roboto', sans-serif;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        font: 400 18px 'Roboto', sans-serif;
+                    }
+                }
+            }
+            
+            h3 {
+                font: 400 24px 'Roboto', sans-serif;
+                    padding: 32px;
+            }
+        }
+
+        .prevention-content {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;   
+            height: 100vh;
+
+            .prevention-explication {
+                display: flex;
+                justify-content: center;
+                padding: 0 128px;
+                flex-direction: column;
+                text-align: justify;
+                margin-bottom: 250px;
+
+                strong {
+                    font: 700 24px 'Roboto', sans-serif;
+                    margin-bottom: 15px;
+                    text-decoration: underline;
+                }
+
+                p {
+                    font: 400 18px 'Roboto', sans-serif;
+                    line-height: 30px;
+                }
+            }
+
+            .detection-explication {
+                display: flex;
+                justify-content: center;
+                padding: 0 128px;
+                flex-direction: column;
+                text-align: justify;
+                margin-bottom: 10px;
+
+                strong {
+                    font: 700 24px 'Roboto', sans-serif;
+                    margin-bottom: 15px;
+                    text-decoration: underline;
+                }
+
+                p {
+                    font: 400 18px 'Roboto', sans-serif;
+                    line-height: 30px;
+                    
+                }
+            }
+
+        }
+
+        .about-content {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            padding: 128px;
+            height: 100vh;
+
+            aside {
+                display: flex;
+                padding: 0 156px;
+                flex: 8;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .information-about {
+                display: flex;
+                padding: 75px 156px;
+                flex: 8;
+                align-items: center;
+                text-align: justify;
+                flex-direction: column;
+
+                h1 {
+                    font: 700 36px 'Roboto', sans-serif;
+                    padding: 32px;
+                    text-decoration: underline;
+                }
+
+                p {
+                    font: 400 28px 'Roboto', sans-serif;
+                    line-height: 50px;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    width: 500px;
+                    height: 50px;
+                    border: solid 1px darkmagenta;
+                    border-radius: 8px;
+                    color: #fff;
+                    background: darkmagenta;
+                    font: 500 18px 'Roboto', sans-serif;
+                    cursor: pointer;
+
+                    &:hover {
+                        border: solid 1px darkmagenta;
+                        background: darkmagenta;
+                        color: violet;
+                    }
+            }
+        }
+    }
+
+    .contact-content {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        padding: 64px 0;
+        height: 100vh;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            strong {
+                font: 700 24px 'Roboto', sans-serif;
+                margin-bottom: 15px;
+                text-decoration: underline;
+            }
+
+            p {
+                font: 400 18px 'Roboto', sans-serif;
+                line-height: 50px;
+                margin-bottom: 20px;
+            }
+
+            img {
+                width: 200px;
+                margin-bottom: 30px;
+            }
+
+            input {
+                width: 800px;
+                height: 70px;
+                border-radius: 8px;
+                padding: 20px;
+                margin-bottom: 20px;
+                font: 500 22px 'Roboto', sans-serif;
+            }
+
+            button {
+                width: 100%;
+                height: 70px;
+                border: solid 1px darkmagenta;
+                border-radius: 8px;
+                color: #fff;
+                background: darkmagenta;
+                margin-top: 20px;
+                font: 500 22px 'Roboto', sans-serif;
+                cursor: pointer;
+
+                &:hover {
+                    border: solid 1px darkmagenta;
+                    background: darkmagenta;
+                    color: violet;
+                }
+            }
+        }
+    }
+}
+}

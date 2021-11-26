@@ -1,0 +1,27 @@
+#component-footer {
+    display: flex;
+    background: dimgray;
+    height: 200px;
+
+    footer {
+        display: flex;
+        padding: 75px;
+
+        strong {
+            font: 700 24px 'Roboto', sans-serif;
+            color: gainsboro;
+        }
+
+        a {
+            color: gainsboro;
+            margin-left: 320px;
+            text-decoration: none;
+        }
+
+        span {
+            font: 700 24px 'Roboto', sans-serif;
+            color: lightgreen;
+            cursor: pointer;
+        }
+    }
+}

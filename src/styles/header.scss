@@ -1,0 +1,78 @@
+#component-header {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to right, #e58c8a, MediumOrchid);
+
+    header {
+        display: flex;
+        align-items: stretch;
+
+        aside {
+            display: flex;
+            padding: 0 500px;
+            flex-direction: column;
+            justify-content: center;
+
+            strong {
+                font: 700 36px 'Roboto', sans-serif;
+                margin-bottom: 15px;
+                color: black;
+            }
+
+            p {
+                font: 400 28px 'Roboto', sans-serif;
+                line-height: 30px;
+                margin-bottom: 30px;
+            }
+
+            button {
+                width: 100%;
+                height: 50px;
+                border: solid 1px darkmagenta;
+                border-radius: 8px;
+                color: #fff;
+                background: darkmagenta;
+                font: 500 18px 'Roboto', sans-serif;
+                cursor: pointer;
+
+                &:hover {
+                    border: solid 1px darkmagenta;
+                    background: darkmagenta;
+                    color: violet;
+                }
+            }
+        }
+
+        
+        .header-button {
+            display: flex;
+            position: absolute;
+            flex-direction: row;
+            padding: 120px 500px;
+
+            button {
+                border: none;
+                width: 150px;
+                height: 50px;
+                margin-right: 20px;
+                background: none;
+                font: 700 24px 'Roboto', sans-serif;
+                cursor: pointer;
+
+                &:hover {
+                    color: violet;
+                }
+            }
+        }
+
+        .assets-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            img {
+                height: 300px;
+            }    
+        }   
+    }
+}
